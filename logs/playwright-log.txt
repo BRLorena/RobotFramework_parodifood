@@ -1,0 +1,149 @@
+{"level":30,"time":"2022-06-04T11:02:15.532Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Listening on 50475"}
+{"level":30,"time":"2022-06-04T11:02:15.808Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:15.810Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:15.816Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:15.816Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:15.824Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-04T11:02:16.581Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-04T11:02:16.593Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-04T11:02:16.594Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-04T11:02:16.628Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-04T11:02:16.969Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-04T11:02:16.970Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-04T11:02:19.109Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-04T11:02:19.116Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:19.118Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with p in page."}
+{"level":30,"time":"2022-06-04T11:02:19.306Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element p containing Nunca foi tão engraçado pedir comida\nLanchonetes e restaurantes clássicos e parodiados pra você :P"}
+{"level":30,"time":"2022-06-04T11:02:19.307Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:19.310Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-04T11:02:19.310Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-06-04T11:02:19.428Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-04T11:02:19.431Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:19.431Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2022-06-04T11:02:19.448Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element h1 containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-06-04T11:02:19.448Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:19.451Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-04T11:02:19.451Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-06-04T11:02:19.503Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-04T11:02:19.507Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-04T11:02:19.507Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-06-04T11:02:19.538Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-04T11:02:19.542Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:19.543Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-06-04T11:02:19.975Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=.place-info-box" to be visible
+============================================================
+    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
+=============================================================
+{"level":30,"time":"2022-06-04T11:02:19.980Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:19.980Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-06-04T11:02:20.050Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=.place-info-box" to be visible
+  strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
+=============================================================
+{"level":30,"time":"2022-06-04T11:02:20.053Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:20.053Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-06-04T11:02:20.100Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=.place-info-box" to be visible
+  strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
+=============================================================
+{"level":30,"time":"2022-06-04T11:02:20.103Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:20.104Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-06-04T11:02:20.150Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=.place-info-box" to be visible
+  strict mode violation: ".place-info-box" resolved to 5 elements:
+    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
+=============================================================
+{"level":30,"time":"2022-06-04T11:02:20.156Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:20.156Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-06-04T11:02:20.389Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-04T11:02:20.392Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:20.392Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-04T11:02:20.408Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element css=.place-info-box-text containing DEBUGER KING"}
+{"level":30,"time":"2022-06-04T11:02:20.409Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-04T11:02:21.418Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-06-04T11:02:21.633Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-06-04T11:02:21.640Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.644Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-04T11:02:21.660Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.664Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.668Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-04T11:02:21.668Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-04T11:02:21.673Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-04T11:02:21.673Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-04T11:02:21.686Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-06-04T11:02:21.714Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Removed page=b359bff5-48af-4131-a510-c0b36606a5df from context=4bd2fabe-1bcb-4efc-970b-05a0464e9cf4 page stack"}
+{"level":30,"time":"2022-06-04T11:02:21.779Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-06-04T11:02:21.794Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.794Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-04T11:02:21.895Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-04T11:02:22.174Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeAllBrowsers"}
