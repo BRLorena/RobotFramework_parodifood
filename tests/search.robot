@@ -60,7 +60,7 @@ Search for all restaurant
 
   Click         css=.search-link
   Fill Text     css=input[formcontrolname="searchControl"]  a
-
+ 
   Wait For Elements State   css=.content  visible
   
   # Check if I have five result
