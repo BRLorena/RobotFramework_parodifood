@@ -1,149 +1,231 @@
-{"level":30,"time":"2022-06-04T11:02:15.532Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Listening on 50475"}
-{"level":30,"time":"2022-06-04T11:02:15.808Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:15.810Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:15.816Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:15.816Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:15.824Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-06-04T11:02:16.581Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-06-04T11:02:16.593Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-06-04T11:02:16.594Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-06-04T11:02:16.628Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
-{"level":30,"time":"2022-06-04T11:02:16.969Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Video path: undefined"}
-{"level":30,"time":"2022-06-04T11:02:16.970Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
-{"level":30,"time":"2022-06-04T11:02:19.109Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newPage"}
-{"level":30,"time":"2022-06-04T11:02:19.116Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:19.118Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with p in page."}
-{"level":30,"time":"2022-06-04T11:02:19.306Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element p containing Nunca foi tão engraçado pedir comida\nLanchonetes e restaurantes clássicos e parodiados pra você :P"}
-{"level":30,"time":"2022-06-04T11:02:19.307Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:19.310Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-04T11:02:19.310Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
-{"level":30,"time":"2022-06-04T11:02:19.428Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
-{"level":30,"time":"2022-06-04T11:02:19.431Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:19.431Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with h1 in page."}
-{"level":30,"time":"2022-06-04T11:02:19.448Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element h1 containing Ta na hora de matar a fome!"}
-{"level":30,"time":"2022-06-04T11:02:19.448Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:19.451Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-04T11:02:19.451Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
-{"level":30,"time":"2022-06-04T11:02:19.503Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
-{"level":30,"time":"2022-06-04T11:02:19.507Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-06-04T11:02:19.507Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
-{"level":30,"time":"2022-06-04T11:02:19.538Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method fillText"}
-{"level":30,"time":"2022-06-04T11:02:19.542Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:19.543Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
-{"level":30,"time":"2022-06-04T11:02:19.975Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-=========================== logs ===========================
-waiting for selector "css=.place-info-box" to be visible
-============================================================
-    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
-    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
-=============================================================
-{"level":30,"time":"2022-06-04T11:02:19.980Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:19.980Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
-{"level":30,"time":"2022-06-04T11:02:20.050Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-=========================== logs ===========================
-waiting for selector "css=.place-info-box" to be visible
-  strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-============================================================
-    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
-    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
-=============================================================
-{"level":30,"time":"2022-06-04T11:02:20.053Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:20.053Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
-{"level":30,"time":"2022-06-04T11:02:20.100Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-=========================== logs ===========================
-waiting for selector "css=.place-info-box" to be visible
-  strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-============================================================
-    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
-    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
-=============================================================
-{"level":30,"time":"2022-06-04T11:02:20.103Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:20.104Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
-{"level":30,"time":"2022-06-04T11:02:20.150Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Error: strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-=========================== logs ===========================
-waiting for selector "css=.place-info-box" to be visible
-  strict mode violation: ".place-info-box" resolved to 5 elements:
-    1) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
-    2) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
-    3) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
-    4) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
-    5) <div class="place-info-box ng-animating">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
-
-============================================================
-    at waitForElementState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6630:19)
-    at async PlaywrightServer.waitForElementsState (C:\Users\bruno\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7996:28)
-=============================================================
-{"level":30,"time":"2022-06-04T11:02:20.156Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:20.156Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
-{"level":30,"time":"2022-06-04T11:02:20.389Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-04T11:02:20.392Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:20.392Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box-text in page."}
-{"level":30,"time":"2022-06-04T11:02:20.408Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element css=.place-info-box-text containing DEBUGER KING"}
-{"level":30,"time":"2022-06-04T11:02:20.409Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-04T11:02:21.418Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-06-04T11:02:21.633Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-06-04T11:02:21.640Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.644Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
-{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
-{"level":30,"time":"2022-06-04T11:02:21.650Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
-{"level":30,"time":"2022-06-04T11:02:21.660Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.664Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.668Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-06-04T11:02:21.668Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-06-04T11:02:21.673Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-06-04T11:02:21.673Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
-{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
-{"level":30,"time":"2022-06-04T11:02:21.681Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
-{"level":30,"time":"2022-06-04T11:02:21.686Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-06-04T11:02:21.714Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Removed page=b359bff5-48af-4131-a510-c0b36606a5df from context=4bd2fabe-1bcb-4efc-970b-05a0464e9cf4 page stack"}
-{"level":30,"time":"2022-06-04T11:02:21.779Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-06-04T11:02:21.794Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.794Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-04T11:02:21.895Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-06-04T11:02:22.174Z","pid":19964,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-06T19:39:07.361Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Listening on 62273"}
+{"level":30,"time":"2022-06-06T19:39:07.785Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:07.786Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:07.793Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:07.793Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:07.799Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:08.392Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:08.425Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:08.426Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-06T19:39:08.453Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:08.706Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-06T19:39:08.706Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:10.182Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:10.189Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:10.189Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with p in page."}
+{"level":30,"time":"2022-06-06T19:39:10.343Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element p containing Nunca foi tão engraçado pedir comida\nLanchonetes e restaurantes clássicos e parodiados pra você :P"}
+{"level":30,"time":"2022-06-06T19:39:10.343Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:10.347Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:10.347Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-06-06T19:39:10.436Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:10.440Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:10.440Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2022-06-06T19:39:10.456Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element h1 containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-06-06T19:39:10.456Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:10.459Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:10.459Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-06-06T19:39:10.517Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:10.521Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:10.521Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-06-06T19:39:10.551Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:10.556Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:10.556Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-06-06T19:39:11.714Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:11.718Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:11.718Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:11.738Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element css=.place-info-box-text containing DEBUGER KING"}
+{"level":30,"time":"2022-06-06T19:39:11.738Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:11.744Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:11.744Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:11.752Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:11.766Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:11.964Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:11.974Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:11.979Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:11.983Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:11.983Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:11.984Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:11.992Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:11.994Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:11.997Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:11.997Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:12.000Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:12.000Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:12.008Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:12.008Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:12.008Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:12.010Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:12.036Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Removed page=e3389265-f161-47a7-b19a-817263f5e041 from context=79971e99-418f-418e-a407-e3e0523a8f1f page stack"}
+{"level":30,"time":"2022-06-06T19:39:12.077Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:12.089Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:12.090Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:12.094Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:12.767Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:12.778Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:12.778Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-06T19:39:12.800Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:13.113Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-06T19:39:13.113Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:15.414Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:15.418Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:15.418Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with p in page."}
+{"level":30,"time":"2022-06-06T19:39:15.597Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element p containing Nunca foi tão engraçado pedir comida\nLanchonetes e restaurantes clássicos e parodiados pra você :P"}
+{"level":30,"time":"2022-06-06T19:39:15.598Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:15.602Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:15.602Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-06-06T19:39:15.703Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:15.707Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:15.707Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2022-06-06T19:39:15.724Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element h1 containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-06-06T19:39:15.725Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:15.728Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:15.728Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-06-06T19:39:15.768Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:15.772Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:15.772Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-06-06T19:39:15.798Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:15.801Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:15.801Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-06-06T19:39:16.781Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:16.788Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:16.789Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:16.818Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element css=.place-info-box-text containing STARBUGS COFFEE"}
+{"level":30,"time":"2022-06-06T19:39:16.818Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:16.824Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:17.076Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:17.082Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.126Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.128Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:17.128Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:17.128Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:17.134Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.138Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.142Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.142Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.144Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.144Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.148Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:17.148Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:17.148Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:17.151Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:17.169Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Removed page=da47b52c-8ac5-4ee6-8075-b898d0034db9 from context=33dc107b-6f71-487d-a6a0-6636fe36dcf9 page stack"}
+{"level":30,"time":"2022-06-06T19:39:17.226Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:17.236Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.236Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:17.241Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.892Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-06T19:39:17.899Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:17.899Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-06T19:39:17.915Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:18.151Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-06T19:39:18.151Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:19.616Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-06T19:39:19.620Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:19.621Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with p in page."}
+{"level":30,"time":"2022-06-06T19:39:19.779Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element p containing Nunca foi tão engraçado pedir comida\nLanchonetes e restaurantes clássicos e parodiados pra você :P"}
+{"level":30,"time":"2022-06-06T19:39:19.779Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:19.782Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:19.782Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-06-06T19:39:19.892Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:19.895Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:19.895Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2022-06-06T19:39:19.912Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Retrieved text for element h1 containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-06-06T19:39:19.912Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-06T19:39:19.915Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-06T19:39:19.915Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-06-06T19:39:19.970Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method click"}
+{"level":30,"time":"2022-06-06T19:39:19.973Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:19.973Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-06-06T19:39:20.000Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-06T19:39:20.003Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:20.003Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is enabled, find Locator with css=.content in page."}
+{"level":30,"time":"2022-06-06T19:39:20.015Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-06T19:39:20.018Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.018Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.021Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.034Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.034Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.036Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.049Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.049Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.051Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.064Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.064Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.066Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.079Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.079Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.081Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.092Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.092Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.097Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.109Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.109Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.111Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.123Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.123Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.126Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.139Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.140Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.142Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.154Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.154Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.159Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.172Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.173Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.175Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.188Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.188Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.192Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.204Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.204Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.209Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.222Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.222Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.226Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.237Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.237Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.241Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.253Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.253Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.255Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.268Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.268Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.270Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.282Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.282Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.285Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.296Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.296Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.298Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.311Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.311Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.314Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.326Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.326Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.329Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.341Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:20.341Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Strict mode is disabled, return Locator: css=.place-info-box-text in page."}
+{"level":30,"time":"2022-06-06T19:39:20.374Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-06-06T19:39:21.382Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:21.588Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-06-06T19:39:21.597Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.600Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.602Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:21.603Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:21.603Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:21.611Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.615Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.617Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:21.618Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:21.620Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:21.620Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-06T19:39:21.625Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active context"}
+{"level":30,"time":"2022-06-06T19:39:21.625Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-06T19:39:21.626Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Changed active page"}
+{"level":30,"time":"2022-06-06T19:39:21.631Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:21.655Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Removed page=b4e1a3eb-3617-42d1-817f-564d427dbdf2 from context=b5449487-5325-4b4d-bab5-fa4e36489c91 page stack"}
+{"level":30,"time":"2022-06-06T19:39:21.696Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-06-06T19:39:21.707Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.708Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T19:39:21.779Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-06T19:39:22.332Z","pid":12552,"hostname":"LAPTOP-P5DNNLVO","msg":"End of node method closeAllBrowsers"}
