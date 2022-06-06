@@ -35,7 +35,7 @@ Search for a restaurant by category
   # checkpoint
   Get Text      p    contains    Nunca foi tão engraçado pedir comida
   Click         text=Estou com fome! 
-
+ 
   # checkpoint
   Get Text      h1  contains  Ta na hora de matar a fome!
 
